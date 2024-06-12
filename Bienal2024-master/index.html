@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bienal 2024</title>
+    <meta name="description" content="Roxy">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+
+    <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.min.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400|Work+Sans:300,400,700" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        #map {
+            height: 600px;
+            width: 100%;
+        }
+    </style>
+
+    <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
+</head>
+<body data-spy="scroll" data-target="#navbar" class="static-layout">
+	<nav id="header-navbar" class="navbar navbar-expand-lg py-4">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center text-white" href="/">
+            <img src="./img/logo-ien-250x71.png" alt="">
+             <div class="separator"></div>
+            <img src="./mau/Imagen_de_WhatsApp_2024-06-11_a_las_11.24.19_9d8a2ffe-removebg-preview.png" alt="" class="logos">
+    
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav-header" aria-controls="navbar-nav-header" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="lnr lnr-menu"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-nav-header">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://l9xgg.zappar.io/6353341811890584972/v1/">Nuestras Esculturas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://trivienal-demo.netlify.app/trivia">Tribienal</a>
+                </li>
+                <li class="nav-item">
+                    <a id="side-search-open" class="nav-link" href="#">
+                        <span class="lnr lnr-magnifier"></span>
+                    </a>
+                </li>
+                 <li class="nav-item only-desktop">
+                    <a class="nav-link" id="side-nav-open" href="#">
+                        <span class="lnr lnr-menu"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div id="side-nav" class="sidenav">
+	<a href="javascript:void(0)" id="side-nav-close">&times;</a>
+	
+	<div class="sidenav-content">
+		<p>
+			Mitre 280
+		</p>
+		<p>
+			<span class="fs-16 primary-color">(+54) 3624941613</span>
+		</p>
+		<p>ien@gmail.com</p>
+	</div>
+</div><div id="side-search" class="sidenav">
+	<a href="javascript:void(0)" id="side-search-close">&times;</a>
+	<div class="sidenav-content">
+		<form action="">
+
+			<div class="input-group md-form form-sm form-2 pl-0">
+			  <input class="form-control my-0 py-1 red-border" type="text" placeholder="Search" aria-label="Search">
+			  <div class="input-group-append">
+			    <button class="input-group-text red lighten-3" id="basic-text1">
+			    	<span class="lnr lnr-magnifier"></span>
+			    </button>
+			  </div>
+			</div>
+
+		</form>
+	</div>
+	
+</div>	<div class="jumbotron d-flex align-items-center">
+
+
+
+
+
+
+    <!--
+  <div class="container text-center">
+    <h1 class="display-1 mb-4"> <img src="./img/mauricio.png" alt="">Bienal 2024</h1>
+  </div>
+-->
+
+
+
+
+
+<div class="bienal-container">
+    <img src="./img/mauricio.png" alt="Descripción de la imagen" class="bienal-image">
+    <div class="bienal-content">
+        <h1>Bienal 2024</h1>
+        <div class="bienal-subtitle">
+            <p>Ingrese aquí para descargar nuestra app</p>
+            <a href="https://trivienal-demo.netlify.app/trivia"     class="btn btn-outline-primary btn-lg">Descargar app</a>
+       
+        </div>
+    </div>
+</div>
+
+
+
+
+  <div class="rectangle-1"></div>
+  <div class="rectangle-2"></div>
+  <div class="rectangle-transparent-1"></div>
+  <div class="rectangle-transparent-2"></div>
+  <div class="circle-1"></div>
+  <div class="circle-2"></div>
+  <div class="circle-3"></div>
+  <div class="triangle triangle-1">
+  	<img src="img/obj_triangle.png" alt="">
+  </div>
+  <div class="triangle triangle-2">
+  	<img src="img/obj_triangle.png" alt="">
+  </div>
+  <div class="triangle triangle-3">
+  	<img src="img/obj_triangle.png" alt="">
+  </div>
+  <div class="triangle triangle-4">
+  	<img src="img/obj_triangle.png" alt="">
+  </div>
+</div>	<!-- Features Section-->
+<section id="features" class="bg-white">
+    <div class="container">
+        <div class="section-content">
+
+
+
+
+
+
+
+
+
+            <!-- Section Title -->
+            
+                        <div class="container" id="seccion1">
+                            <h1>Te damos a conocer los ganadores de ediciones anteriores</h1>
+                            <p>Te presentaremos los ultimos 3 ganadores, y una breve descripción.</p>
+                            <div class="card-container">
+                                <div class="card">
+                                    <img src="./img/2022g.jpg" alt="Petre Virgiliu Mogosanu">
+                                    <h2>2022<br>Petre Virgiliu Mogosanu (Rumania)</h2>
+                                    <p>"Tensión en la Naturaleza" representa el movimiento y el cambio en la naturaleza, mostrando fuerzas en tensión y equilibrio.</p>
+                                </div>
+                                <div class="card">
+                                    <img src="./img/2018g.jpg" alt="Ivo Kostecki">
+                                    <h2>2018:<br>Ivo Kostecki (Argentina)</h2>
+                                    <p>"Genesis" una obra que simboliza el comienzo de la vida y la creación. Razón: Fue premiada por su técnica sobresaliente y su profundo simbolismo con la naturaleza.</p>
+                                </div>
+                                <div class="card">
+                                    <img src="./img/2022g.jpg" alt="Jorge Gamarra">
+                                    <h2>2016:<br>Jorge Gamarra (Argentina)</h2>
+                                    <p>"Rostros del Futuro" una obra que simboliza la transformación y el cambio. Ganó por su poderoso mensaje de esperanza y renovación.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="map-container">
+                            <h2>Nuestras Esculturas</h2>
+                            <div id="map"></div>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script>
+        var map = L.map('map').setView([-27.43740, -58.97994], 22);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        var CustomIcon = L.DivIcon.extend({
+            createIcon: function () {
+                var div = document.createElement('div');
+                div.className = 'custom-marker';
+                var img = document.createElement('img');
+                img.src = this.options.iconUrl;
+                div.appendChild(img);
+                return div;
+            }
+        });
+
+        // Definir las instancias de los iconos personalizados con diferentes imágenes
+        var customIcon1 = new CustomIcon({ iconUrl: './img/peatonal_escultura.jpeg' });
+        var customIcon2 = new CustomIcon({ iconUrl: './img/peatonal_escultura2.jpeg' });
+        var customIcon3 = new CustomIcon({ iconUrl: './img/escultura_avenida.jpeg' });
+
+        // Contenido del popup para cada marcador
+        var popupContent1 = '<div class="popup-content">' +
+            '<h3>El alma</h3>' +
+            '<p>de Líbero Badii Peatonal Juan Domingo Perón, en la intersección con la avenida Juan Bautista Alberdi.</p>' +
+            '<img class="popup-img" src="./img/peatonal_escultura.jpeg">' +
+            '</div>';
+
+        var popupContent2 = '<div class="popup-content">' +
+            '<h3>Ansia de luz</h3>' +
+            '<p>de Erminio Blotta  Arturo Illia 98, H3500 Resistencia, Chaco.</p>' +
+            '<img class="popup-img" src="./img/peatonal_escultura2.jpeg">' +
+            '</div>';
+
+        var popupContent3 = '<div class="popup-content">' +
+            '<h3>Flor indigena</h3>' +
+            '<p>de Leguizamón Pondal Av. Sarmiento, H3500 Resistencia, Chaco.</p>' +
+            '<img class="popup-img" src="./img/escultura_avenida.jpeg">' +
+            '</div>';
+
+        // Crear los marcadores con los iconos personalizados y contenido de popup correspondiente
+        L.marker([-27.43706, -58.98050], { icon: customIcon1 })
+            .addTo(map)
+            .bindPopup(popupContent1);
+
+        L.marker([-27.43720, -58.97974], { icon: customIcon2 })
+            .addTo(map)
+            .bindPopup(popupContent2);
+
+        L.marker([-27.43740, -58.97994], { icon: customIcon3 })
+            .addTo(map)
+            .bindPopup(popupContent3);
+</script>
+</script>
+</section>
+
+
+
+
+
+
+
+
+<!-- End of Features Section-->	<section id="section-featurettes" class="featurettes overlay bg-fixed" style="background-image: url(img/bg.jpg);">
+
+    
+<!-- End of Reservation Section -->	<!-- Features Section-->
+<section id="cta" class="bg-fixed overlay" style="background-image: url(img/bg.jpg);">
+    <div class="container">
+        <div class="section-content" data-aos="fade-up">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="mb-2">Ingrese aquí para descargar nuestra Trivia.</h2>
+                
+                    <a href="https://trivienal-demo.netlify.app/trivia"     class="btn btn-outline-primary btn-lg">Descargar app</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of Features Section--></div>
+<footer class="mastfoot my-3">
+    <div class="inner container">
+         <div class="row">
+         	<div class="col-lg-4 col-md-12 d-flex align-items-center">
+         		
+         	</div>
+         	<div class="col-lg-4 col-md-12 d-flex align-items-center">
+         		<p class="mx-auto text-center mb-0">&copy; 2024 Bienal. Design by <a href="https://www.linkedin.com/in/mauricio-pelozo-71337528b/" target="_blank">MauricioPelozo</a>.</p>
+         	</div>
+           
+            <div class="col-lg-4 col-md-12">
+            	<nav class="nav nav-mastfoot justify-content-center">
+	                <a class="nav-link" href="#">
+	                	<i class="fab fa-facebook-f"></i>
+	                </a>
+	                <a class="nav-link" href="#">
+	                	<i class="fab fa-twitter"></i>
+	                </a>
+	                <a class="nav-link" href="#">
+	                	<i class="fab fa-instagram"></i>
+	                </a>
+	                <a class="nav-link" href="#">
+	                	<i class="fab fa-linkedin"></i>
+	                </a>
+	                <a class="nav-link" href="#">
+	                	<i class="fab fa-youtube"></i>
+	                </a>
+	            </nav>
+            </div>
+            
+        </div>
+    </div>
+</footer>	<!-- External JS -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+	<script src="vendor/bootstrap/popper.min.js"></script>
+	<script src="vendor/bootstrap/bootstrap.min.js"></script>
+	<script src="vendor/select2/select2.min.js "></script>
+	<script src="vendor/owlcarousel/owl.carousel.min.js"></script>
+	<script src="vendor/stellar/jquery.stellar.js" type="text/javascript" charset="utf-8"></script>
+	<script src="vendor/isotope/isotope.min.js"></script>
+	<script src="vendor/lightcase/lightcase.js"></script>
+	<script src="vendor/waypoints/waypoint.min.js"></script>
+	 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	 
+	<!-- Main JS -->
+	<script src="js/app.min.js "></script>
+	<script src="//localhost:35729/livereload.js"></script>
+</body>
+</html>
