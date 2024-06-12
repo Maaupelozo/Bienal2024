@@ -110,10 +110,16 @@ body {
 
 .bienal-subtitle {
   margin-top: 10px;
+  background-color: rgba(255, 0, 217, 0.5);
+  border-radius: 10px;
+  padding: 10px 20px;
+  display: inline-block;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduce box-shadow */
+  text-align: center; /* Center the text inside */
 }
 
 .bienal-subtitle p {
-  font-size: 1.2em; /* Adjust font size */
+  font-size: 1.2em;
   margin: 10px 0;
 }
 
@@ -121,17 +127,17 @@ body {
   font-size: 1em;
   padding: 10px 20px;
   border: none;
-  background-color: transparent;
-  color: #ffffff;
+  background-color: white;
+  color: #4a00e0;
   cursor: pointer;
-  border-radius: 30px;
-  border-color: #eb1f1f;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px; /* Ensure there is some space between text and button */
 }
 
 .bienal-button:hover {
   background-color: #ddd;
 }
-
 /* Responsivo del  */
 @media (max-width: 768px) {
   .bienal-container {
